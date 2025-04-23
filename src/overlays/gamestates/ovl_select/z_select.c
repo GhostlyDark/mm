@@ -800,7 +800,7 @@ static const char* sLoadingMessages[] = {
 void MapSelect_PrintLoadingMessage(MapSelectState* this, GfxPrint* printer) {
     s32 randomMsg;
 
-    GfxPrint_SetPos(printer, 10, 15);
+    GfxPrint_SetPos(printer, 16, 15);
     GfxPrint_SetColor(printer, 255, 255, 255, 255);
 
     randomMsg = Rand_ZeroOne() * ARRAY_COUNT(sLoadingMessages);
