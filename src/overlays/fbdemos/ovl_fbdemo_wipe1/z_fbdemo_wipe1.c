@@ -41,8 +41,8 @@ void TransitionWipe1_Start(void* thisx) {
         this->texY = (s32)(153.0f * (1 << 2));
     }
 
-    guPerspective(&this->projection, &this->normal, 60.0f, (4.0f / 3.0f), 10.0f, 12800.0f, 1.0f);
-    guLookAt(&this->lookAt, 0.0f, 0.0f, 400.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
+    guPerspective(&this->projection, &this->normal, 60.0f, (16.0f / 9.0f), 10.0f, 12800.0f, 1.0f);
+    guLookAt(&this->lookAt, 0.0f, 0.0f, 296.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
 }
 
 void* TransitionWipe1_Init(void* thisx) {
