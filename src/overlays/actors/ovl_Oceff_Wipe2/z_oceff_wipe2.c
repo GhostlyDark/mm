@@ -68,9 +68,9 @@ void OceffWipe2_Draw(Actor* thisx, PlayState* play) {
     vtxPtr = sEponaSongFrustumVtx;
 
     if (this->timer < 32) {
-        z = Math_SinS(this->timer * 0x200) * 1220.0f;
+        z = Math_SinS(this->timer * 0x200) * 1180.0f;
     } else {
-        z = 1220.0f;
+        z = 1180.0f;
     }
 
     if (this->timer >= 80) {

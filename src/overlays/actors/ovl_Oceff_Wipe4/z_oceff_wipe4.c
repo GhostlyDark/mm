@@ -66,9 +66,9 @@ void OceffWipe4_Draw(Actor* thisx, PlayState* play) {
     Vec3f quakeOffset = Camera_GetQuakeOffset(GET_ACTIVE_CAM(play));
 
     if (this->counter < 16) {
-        z = Math_SinS(this->counter * 0x400) * 1220.0f;
+        z = Math_SinS(this->counter * 0x400) * 1180.0f;
     } else {
-        z = 1220.0f;
+        z = 1180.0f;
     }
 
     vtxPtr = sScarecrowSongFrustumVtx;

@@ -74,9 +74,9 @@ void OceffWipe_Draw(Actor* thisx, PlayState* play) {
     OPEN_DISPS(play->state.gfxCtx);
 
     if (this->counter < 32) {
-        z = Math_SinS(this->counter << 9) * 1360.0f;
+        z = Math_SinS(this->counter << 9) * 1304.0f;
     } else {
-        z = 1360.0f;
+        z = 1304.0f;
     }
 
     if (this->counter >= 80) {

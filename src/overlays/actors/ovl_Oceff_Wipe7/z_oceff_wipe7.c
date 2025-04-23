@@ -67,9 +67,9 @@ void OceffWipe7_Draw(Actor* thisx, PlayState* play) {
     s32 pad2;
 
     if (this->counter < 32) {
-        z = Math_SinS(this->counter * 0x200) * 1220.0f;
+        z = Math_SinS(this->counter * 0x200) * 1180.0f;
     } else {
-        z = 1220.0f;
+        z = 1180.0f;
     }
 
     if (this->counter >= 80) {
