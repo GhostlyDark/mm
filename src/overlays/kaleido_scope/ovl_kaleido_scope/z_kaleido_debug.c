@@ -45,56 +45,56 @@ typedef struct {
 // clang-format off
 SectionPosition sSectionPositions[] = {
     // Rupees (0)
-    { 65, 14, 41 },
+    { 117, 14, 41 },
     // Health Capacity (1)
-    { 145, 14, 21 },
+    { 197, 14, 21 },
     // Health (2)
-    { 193, 14, 35 },
+    { 245, 14, 35 },
     // Items (3)
-    { 42, 37, 22 },   { 65, 37, 22 },   { 88, 37, 22 }, { 111, 37, 22 },  { 134, 37, 22 },  { 157, 37, 22 }, // row 1
-    { 42, 51, 22 },   { 65, 51, 22 },   { 88, 51, 22 }, { 111, 51, 22 },  { 134, 51, 22 },  { 157, 51, 22 }, // row 2
-    { 42, 65, 22 },   { 65, 65, 22 },   { 88, 65, 22 }, { 111, 65, 22 },  { 134, 65, 22 },  { 157, 65, 22 }, // row 3
-    { 42, 80, 22 },   { 65, 80, 22 },   { 88, 80, 22 }, { 111, 80, 22 },  { 134, 80, 22 },  { 157, 80, 22 }, // row 4
+    { 94, 37, 22 },   { 117, 37, 22 },  { 140, 37, 22 }, { 163, 37, 22 },  { 186, 37, 22 },  { 209, 37, 22 }, // row 1
+    { 94, 51, 22 },   { 117, 51, 22 },  { 140, 51, 22 }, { 163, 51, 22 },  { 186, 51, 22 },  { 209, 51, 22 }, // row 2
+    { 94, 65, 22 },   { 117, 65, 22 },  { 140, 65, 22 }, { 163, 65, 22 },  { 186, 65, 22 },  { 209, 65, 22 }, // row 3
+    { 94, 80, 22 },   { 117, 80, 22 },  { 140, 80, 22 }, { 163, 80, 22 },  { 186, 80, 22 },  { 209, 80, 22 }, // row 4
     // Masks (27)
-    { 202, 37, 14 },  { 215, 37, 14 },  { 229, 37, 14 }, { 243, 37, 14 },  { 257, 37, 14 },  { 271, 37, 14 }, // row 1
-    { 202, 51, 14 },  { 215, 51, 14 },  { 229, 51, 14 }, { 243, 51, 14 },  { 257, 51, 14 },  { 271, 51, 14 }, // row 2
-    { 202, 65, 14 },  { 215, 65, 14 },  { 229, 65, 14 }, { 243, 65, 14 },  { 257, 65, 14 },  { 271, 65, 14 }, // row 3
-    { 202, 80, 14 },  { 215, 80, 14 },  { 229, 80, 14 }, { 243, 80, 14 },  { 257, 80, 14 },  { 271, 80, 14 }, // row 4
+    { 254, 37, 14 },  { 267, 37, 14 },  { 281, 37, 14 }, { 295, 37, 14 },  { 309, 37, 14 },  { 323, 37, 14 }, // row 1
+    { 254, 51, 14 },  { 267, 51, 14 },  { 281, 51, 14 }, { 295, 51, 14 },  { 309, 51, 14 },  { 323, 51, 14 }, // row 2
+    { 254, 65, 14 },  { 267, 65, 14 },  { 281, 65, 14 }, { 295, 65, 14 },  { 309, 65, 14 },  { 323, 65, 14 }, // row 3
+    { 254, 80, 14 },  { 267, 80, 14 },  { 281, 80, 14 }, { 295, 80, 14 },  { 309, 80, 14 },  { 323, 80, 14 }, // row 4
     // Boss (51)
-    { 42, 111, 14 },  { 54, 111, 14 },  { 66, 111, 14 }, { 78, 111, 14 },
+    { 94, 111, 14 },  { 106, 111, 14 }, { 118, 111, 14 }, { 130, 111, 14 },
     // Sword (55)
-    { 114, 99, 14 },
+    { 166, 99, 14 },
     // Shield (56)
-    { 142, 99, 14 },
+    { 194, 99, 14 },
     // Songs (57)
-    { 188, 99, 14 },  { 202, 99, 14 },  { 216, 99, 14 }, { 230, 99, 14 },  { 244, 99, 14 },  { 258, 99, 14 },
-    { 188, 113, 14 }, { 202, 113, 14 }, { 216, 113, 14 }, { 230, 113, 14 }, { 244, 113, 14 }, { 258, 113, 14 },
+    { 240, 99, 14 },  { 254, 99, 14 },  { 268, 99, 14 }, { 282, 99, 14 },  { 296, 99, 14 },  { 310, 99, 14 },
+    { 240, 113, 14 }, { 254, 113, 14 }, { 268, 113, 14 }, { 282, 113, 14 }, { 296, 113, 14 }, { 310, 113, 14 },
     // Goron Lullaby Intro (69)
-    { 272, 113, 14 },
+    { 324, 113, 14 },
     // Bombers Notebook (70)
-    { 54, 141, 14 },
+    { 106, 141, 14 },
     // Quiver Upgrade (71)
-    { 112, 134, 14 },
+    { 164, 134, 14 },
     // Bomb Bag Upgrade (72)
-    { 155, 134, 14 },
+    { 207, 134, 14 },
     // Gold Skulltula Count (73)
-    { 194, 130, 32 }, { 194, 144, 32 },
+    { 246, 130, 32 }, { 246, 144, 32 },
     // Heart Piece Count (75)
-    { 262, 134, 14 },
+    { 314, 134, 14 },
     // Small Keys (76)
-    { 43, 168, 14 },  { 55, 168, 14 }, { 67, 168, 14 },  { 79, 168, 14 },
+    { 95, 168, 14 },  { 107, 168, 14 }, { 119, 168, 14 }, { 131, 168, 14 },
     // Dungeon Items (80)
-    { 127, 168, 14 }, { 139, 168, 14 }, { 151, 168, 14 }, { 163, 168, 14 },
+    { 179, 168, 14 }, { 191, 168, 14 }, { 203, 168, 14 }, { 215, 168, 14 },
     // Stray Fairies (84)
-    { 202, 168, 22 }, { 223, 168, 22 }, { 244, 168, 22 }, { 265, 168, 22 },
+    { 254, 168, 22 }, { 275, 168, 22 }, { 296, 168, 22 }, { 317, 168, 22 },
     // Life (88)
-    { 42, 202, 14 },
+    { 94, 202, 14 },
     // Magic
-    { 73, 202, 14 },
+    { 125, 202, 14 },
     // Lottery
-    { 136, 202, 38 },
+    { 188, 202, 38 },
     // Gold Color/Bombers Code (not highlighted properly)
-    { 214, 202, 74 }, { 214, 202, 74 },
+    { 266, 202, 74 }, { 266, 202, 74 },
 };
 // clang-format on
 
@@ -186,138 +186,138 @@ void KaleidoScope_DrawInventoryEditorText(Gfx** gfxP) {
     GfxPrint_Open(&printer, *gfxP);
 
     // Rupees
-    GfxPrint_SetPos(&printer, 4, 2);
+    GfxPrint_SetPos(&printer, 10, 2);
     GfxPrint_SetColor(&printer, 255, 60, 0, 255);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾙﾋﾟｰ");
 
     // Hearts
-    GfxPrint_SetPos(&printer, 15, 2);
+    GfxPrint_SetPos(&printer, 21, 2);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾊｰﾄ");
-    GfxPrint_SetPos(&printer, 15, 3);
-    GfxPrint_Printf(&printer, "%s", "MAX");
     GfxPrint_SetPos(&printer, 21, 3);
+    GfxPrint_Printf(&printer, "%s", "MAX");
+    GfxPrint_SetPos(&printer, 27, 3);
     GfxPrint_Printf(&printer, "%s", "NOW");
-    GfxPrint_SetPos(&printer, 28, 3);
+    GfxPrint_SetPos(&printer, 35, 3);
     GfxPrint_Printf(&printer, "%s", "/4");
 
     // Items
-    GfxPrint_SetPos(&printer, 4, 5);
+    GfxPrint_SetPos(&printer, 10, 5);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｱ");
-    GfxPrint_SetPos(&printer, 4, 6);
+    GfxPrint_SetPos(&printer, 10, 6);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｲ");
-    GfxPrint_SetPos(&printer, 4, 7);
+    GfxPrint_SetPos(&printer, 10, 7);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾃ");
-    GfxPrint_SetPos(&printer, 4, 8);
+    GfxPrint_SetPos(&printer, 10, 8);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾑ");
 
     // Masks
-    GfxPrint_SetPos(&printer, 24, 5);
+    GfxPrint_SetPos(&printer, 30, 5);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾏ");
-    GfxPrint_SetPos(&printer, 24, 6);
+    GfxPrint_SetPos(&printer, 30, 6);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｽ");
-    GfxPrint_SetPos(&printer, 24, 7);
+    GfxPrint_SetPos(&printer, 30, 7);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｸ");
 
     // Boss (Remains)
-    GfxPrint_SetPos(&printer, 4, 13);
+    GfxPrint_SetPos(&printer, 10, 13);
     GfxPrint_Printf(&printer, "%s", "BOSS");
 
     // Sword
-    GfxPrint_SetPos(&printer, 13, 13);
+    GfxPrint_SetPos(&printer, 19, 13);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｹ");
-    GfxPrint_SetPos(&printer, 13, 14);
+    GfxPrint_SetPos(&printer, 19, 14);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾝ");
 
     // Shield
-    GfxPrint_SetPos(&printer, 17, 13);
+    GfxPrint_SetPos(&printer, 23, 13);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾀ");
-    GfxPrint_SetPos(&printer, 17, 14);
+    GfxPrint_SetPos(&printer, 23, 14);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾃ");
 
     // Ocarina (Songs)
-    GfxPrint_SetPos(&printer, 21, 13);
+    GfxPrint_SetPos(&printer, 27, 13);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｵｶ");
-    GfxPrint_SetPos(&printer, 21, 14);
+    GfxPrint_SetPos(&printer, 27, 14);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾘﾅ");
 
     // Schedule (Bombers Notebook)
-    GfxPrint_SetPos(&printer, 4, 17);
+    GfxPrint_SetPos(&printer, 10, 17);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｽｹｼﾞｭｰﾙ");
 
     // Quiver
-    GfxPrint_SetPos(&printer, 12, 17);
+    GfxPrint_SetPos(&printer, 18, 17);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾔ");
-    GfxPrint_SetPos(&printer, 12, 18);
+    GfxPrint_SetPos(&printer, 18, 18);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾀﾃ");
 
     // Bomb Bag
-    GfxPrint_SetPos(&printer, 16, 17);
+    GfxPrint_SetPos(&printer, 22, 17);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾎﾞﾑ");
-    GfxPrint_SetPos(&printer, 16, 18);
+    GfxPrint_SetPos(&printer, 22, 18);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾌｸﾛ");
 
     // Gold Skulls
-    GfxPrint_SetPos(&printer, 22, 17);
+    GfxPrint_SetPos(&printer, 28, 17);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｷﾝ");
-    GfxPrint_SetPos(&printer, 22, 18);
+    GfxPrint_SetPos(&printer, 28, 18);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｽﾀ");
 
     // Heart Pieces
-    GfxPrint_SetPos(&printer, 29, 17);
+    GfxPrint_SetPos(&printer, 35, 17);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ﾊｰﾄ");
-    GfxPrint_SetPos(&printer, 29, 18);
+    GfxPrint_SetPos(&printer, 35, 18);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｶｹﾗ");
-    GfxPrint_SetPos(&printer, 34, 18);
+    GfxPrint_SetPos(&printer, 41, 18);
     GfxPrint_Printf(&printer, "%s", "/4");
 
     // Keys
-    GfxPrint_SetPos(&printer, 4, 21);
+    GfxPrint_SetPos(&printer, 10, 21);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｶ");
-    GfxPrint_SetPos(&printer, 4, 22);
+    GfxPrint_SetPos(&printer, 10, 22);
     GfxPrint_Printf(&printer, "%s", GFXP_KATAKANA "ｷﾞ");
 
     // Map/Compass
-    GfxPrint_SetPos(&printer, 12, 21);
+    GfxPrint_SetPos(&printer, 18, 21);
     GfxPrint_Printf(&printer, "%s", "MAP");
-    GfxPrint_SetPos(&printer, 12, 22);
+    GfxPrint_SetPos(&printer, 18, 22);
     GfxPrint_Printf(&printer, "%s", "ｺﾝﾊﾟ");
 
     // Fairies
-    GfxPrint_SetPos(&printer, 23, 21);
+    GfxPrint_SetPos(&printer, 29, 21);
     GfxPrint_Printf(&printer, "%s", "ﾖｳ");
-    GfxPrint_SetPos(&printer, 23, 22);
+    GfxPrint_SetPos(&printer, 29, 22);
     GfxPrint_Printf(&printer, "%s", "ｾｲ");
 
     // Life (double defense)
-    GfxPrint_SetPos(&printer, 4, 25);
+    GfxPrint_SetPos(&printer, 10, 25);
     GfxPrint_Printf(&printer, "%s", "ｲ");
-    GfxPrint_SetPos(&printer, 4, 26);
+    GfxPrint_SetPos(&printer, 10, 26);
     GfxPrint_Printf(&printer, "%s", "ﾉ");
-    GfxPrint_SetPos(&printer, 4, 27);
+    GfxPrint_SetPos(&printer, 10, 27);
     GfxPrint_Printf(&printer, "%s", "ﾁ");
 
     // Magic
-    GfxPrint_SetPos(&printer, 8, 25);
+    GfxPrint_SetPos(&printer, 14, 25);
     GfxPrint_Printf(&printer, "%s", "ﾏ");
-    GfxPrint_SetPos(&printer, 8, 26);
+    GfxPrint_SetPos(&printer, 14, 26);
     GfxPrint_Printf(&printer, "%s", "ﾎ");
-    GfxPrint_SetPos(&printer, 8, 27);
+    GfxPrint_SetPos(&printer, 14, 27);
     GfxPrint_Printf(&printer, "%s", "ｳ");
 
     // Lottery
-    GfxPrint_SetPos(&printer, 13, 25);
+    GfxPrint_SetPos(&printer, 19, 25);
     GfxPrint_Printf(&printer, "%s", "ﾀｶﾗ");
-    GfxPrint_SetPos(&printer, 13, 26);
+    GfxPrint_SetPos(&printer, 19, 26);
     GfxPrint_Printf(&printer, "%s", "ｸｼﾞ");
 
     // Gold Color (Oceanside Spider House Mask Order)
-    GfxPrint_SetPos(&printer, 23, 24);
+    GfxPrint_SetPos(&printer, 29, 24);
     GfxPrint_Printf(&printer, "%s", "ｷﾝｲﾛ");
 
     // Bombers (code)
-    GfxPrint_SetPos(&printer, 23, 26);
+    GfxPrint_SetPos(&printer, 29, 26);
     GfxPrint_Printf(&printer, "%s", "ﾎﾞﾝ");
-    GfxPrint_SetPos(&printer, 23, 27);
+    GfxPrint_SetPos(&printer, 29, 27);
     GfxPrint_Printf(&printer, "%s", "ﾊﾞｰｽﾞ");
 
     *gfxP = GfxPrint_Close(&printer);
@@ -353,7 +353,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     gDPSetRenderMode(POLY_OPA_DISP++, G_RM_XLU_SURF, G_RM_XLU_SURF2);
     gDPSetCombineMode(POLY_OPA_DISP++, G_CC_PRIMITIVE, G_CC_PRIMITIVE);
     gDPSetPrimColor(POLY_OPA_DISP++, 0, 0, 0, 0, 0, 220);
-    gDPFillRectangle(POLY_OPA_DISP++, 24, 12, 298, 228);
+    gDPFillRectangle(POLY_OPA_DISP++, 75, 12, 351, 228);
     gDPPipeSync(POLY_OPA_DISP++);
     gDPSetCombineLERP(POLY_OPA_DISP++, 0, 0, 0, PRIMITIVE, TEXEL0, 0, PRIMITIVE, 0, 0, 0, 0, PRIMITIVE, TEXEL0, 0,
                       PRIMITIVE, 0);
@@ -373,7 +373,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     gDPSetEnvColor(POLY_OPA_DISP++, 0, 0, 0, 0);
 
     // Current Health Quarter (X / 4)
-    KaleidoScope_DrawDigit(play, (((void)0, gSaveContext.save.saveInfo.playerData.health) % 0x10) / 4, 217, 15);
+    KaleidoScope_DrawDigit(play, (((void)0, gSaveContext.save.saveInfo.playerData.health) % 0x10) / 4, 269, 15);
 
     gDPPipeSync(POLY_OPA_DISP++);
     gDPSetPrimColor(POLY_OPA_DISP++, 0, 0, 255, 255, 255, 255);
@@ -397,7 +397,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     }
 
     // Loop over columns (i)
-    for (i = 0, rectLeft = 68; i < 4; i++, rectLeft += 9) {
+    for (i = 0, rectLeft = 120; i < 4; i++, rectLeft += 9) {
         KaleidoScope_DrawDigit(play, counterDigits[i], rectLeft, 15);
     }
 
@@ -409,8 +409,8 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
         counterDigits[3] -= 10;
     }
 
-    KaleidoScope_DrawDigit(play, counterDigits[2], 145, 15);
-    KaleidoScope_DrawDigit(play, counterDigits[3], 154, 15);
+    KaleidoScope_DrawDigit(play, counterDigits[2], 197, 15);
+    KaleidoScope_DrawDigit(play, counterDigits[3], 206, 15);
 
     // Health
     counterDigits[2] = 0;
@@ -420,14 +420,14 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
         counterDigits[3] -= 10;
     }
 
-    KaleidoScope_DrawDigit(play, counterDigits[2], 195, 15);
-    KaleidoScope_DrawDigit(play, counterDigits[3], 204, 15);
+    KaleidoScope_DrawDigit(play, counterDigits[2], 247, 15);
+    KaleidoScope_DrawDigit(play, counterDigits[3], 256, 15);
 
     // Items
     // Loop over rows (i)
     for (slot = 0, i = 0, rectTop = 38; i < ITEM_GRID_ROWS; i++, rectTop += 14) {
         // Loop over columns (j)
-        for (j = 0, rectLeft = 44; j < ITEM_GRID_COLS; j++, slot++, rectLeft += 23) {
+        for (j = 0, rectLeft = 96; j < ITEM_GRID_COLS; j++, slot++, rectLeft += 23) {
             counterDigits[3] = 0;
             counterDigits[2] = 0;
             if ((slot == SLOT_BOW) || ((slot >= SLOT_BOMB) && (slot <= SLOT_DEKU_NUT)) || (slot == SLOT_POWDER_KEG) ||
@@ -461,7 +461,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     // Loop over rows (i)
     for (slot = 0, i = 0, rectTop = 38; i < MASK_GRID_ROWS; i++, rectTop += 14) {
         // Loop over columns (j)
-        for (j = 0, rectLeft = 204; j < MASK_GRID_COLS; j++, slot++, rectLeft += 14) {
+        for (j = 0, rectLeft = 256; j < MASK_GRID_COLS; j++, slot++, rectLeft += 14) {
             counterDigits[2] = 0;
 
             if (gSaveContext.save.saveInfo.inventory.items[slot + ITEM_NUM_SLOTS] != ITEM_NONE) {
@@ -473,7 +473,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
 
     // Boss Remains
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 44, i = 0; i < 4; i++) {
+    for (counterDigits[1] = 96, i = 0; i < 4; i++) {
         counterDigits[2] = 0;
         if (CHECK_QUEST_ITEM(QUEST_REMAINS_ODOLWA + i)) {
             counterDigits[2] = 1;
@@ -483,16 +483,16 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     }
 
     // Sword
-    KaleidoScope_DrawDigit(play, GET_CUR_EQUIP_VALUE(EQUIP_TYPE_SWORD), 116, 100);
+    KaleidoScope_DrawDigit(play, GET_CUR_EQUIP_VALUE(EQUIP_TYPE_SWORD), 168, 100);
 
     // Shield
-    KaleidoScope_DrawDigit(play, GET_CUR_EQUIP_VALUE(EQUIP_TYPE_SHIELD), 145, 100);
+    KaleidoScope_DrawDigit(play, GET_CUR_EQUIP_VALUE(EQUIP_TYPE_SHIELD), 197, 100);
 
     // Songs
     // Loop over rows (j), (counterDigits[3] stores rectTop)
     for (counterDigits[3] = 100, j = 0, slot = 0; j < 2; j++) {
         // Loop over columns (i), (counterDigits[1] stores rectLeft)
-        for (counterDigits[1] = 190, i = 0; i < 6; i++, slot++) {
+        for (counterDigits[1] = 242, i = 0; i < 6; i++, slot++) {
             counterDigits[2] = 0;
             if (CHECK_QUEST_ITEM(QUEST_SONG_SONATA + slot)) {
                 counterDigits[2] = 1;
@@ -516,13 +516,13 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     if (CHECK_QUEST_ITEM(QUEST_BOMBERS_NOTEBOOK)) {
         counterDigits[2] = 1;
     }
-    KaleidoScope_DrawDigit(play, counterDigits[2], 56, 142);
+    KaleidoScope_DrawDigit(play, counterDigits[2], 108, 142);
 
     // Quiver
-    KaleidoScope_DrawDigit(play, CUR_UPG_VALUE(UPG_QUIVER), 114, 134);
+    KaleidoScope_DrawDigit(play, CUR_UPG_VALUE(UPG_QUIVER), 166, 134);
 
     // Bomb Bag
-    KaleidoScope_DrawDigit(play, CUR_UPG_VALUE(UPG_BOMB_BAG), 156, 134);
+    KaleidoScope_DrawDigit(play, CUR_UPG_VALUE(UPG_BOMB_BAG), 208, 134);
 
     // Gold Skulls (Swamp Spider House)
     counterDigits[2] = 0;
@@ -539,9 +539,9 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
         counterDigits[2]++;
     }
 
-    KaleidoScope_DrawDigit(play, counterDigits[1], 196, 130);
-    KaleidoScope_DrawDigit(play, counterDigits[2], 205, 130);
-    KaleidoScope_DrawDigit(play, counterDigits[3], 214, 130);
+    KaleidoScope_DrawDigit(play, counterDigits[1], 248, 130);
+    KaleidoScope_DrawDigit(play, counterDigits[2], 257, 130);
+    KaleidoScope_DrawDigit(play, counterDigits[3], 266, 130);
 
     // Gold Skulls (Oceans Spider House)
     counterDigits[2] = 0;
@@ -558,16 +558,16 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
         counterDigits[2]++;
     }
 
-    KaleidoScope_DrawDigit(play, counterDigits[1], 196, 144);
-    KaleidoScope_DrawDigit(play, counterDigits[2], 205, 144);
-    KaleidoScope_DrawDigit(play, counterDigits[3], 214, 144);
+    KaleidoScope_DrawDigit(play, counterDigits[1], 248, 144);
+    KaleidoScope_DrawDigit(play, counterDigits[2], 257, 144);
+    KaleidoScope_DrawDigit(play, counterDigits[3], 266, 144);
 
     // Heart Pieces
-    KaleidoScope_DrawDigit(play, GET_QUEST_HEART_PIECE_COUNT, 264, 134);
+    KaleidoScope_DrawDigit(play, GET_QUEST_HEART_PIECE_COUNT, 316, 134);
 
     // Keys
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 45, i = 0; i < 4; i++) {
+    for (counterDigits[1] = 97, i = 0; i < 4; i++) {
         counterDigits[2] = 0;
 
         if ((counterDigits[3] = DUNGEON_KEY_COUNT(i)) >= 0) {
@@ -585,7 +585,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
 
     // Dungeon Items
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 129, i = 0; i < 4; i++) {
+    for (counterDigits[1] = 181, i = 0; i < 4; i++) {
         counterDigits[2] = gSaveContext.save.saveInfo.inventory.dungeonItems[i] & gEquipMasks[0];
         KaleidoScope_DrawDigit(play, counterDigits[2], counterDigits[1], 168);
         counterDigits[1] += 12;
@@ -593,7 +593,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
 
     // Stray Fairies
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 202, i = 0; i < 4; i++) {
+    for (counterDigits[1] = 254, i = 0; i < 4; i++) {
         counterDigits[3] = gSaveContext.save.saveInfo.inventory.strayFairies[i];
         counterDigits[2] = counterDigits[3] / 10;
         counterDigits[3] -= counterDigits[2] * 10;
@@ -605,15 +605,15 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
     }
 
     // Double Defense
-    KaleidoScope_DrawDigit(play, gSaveContext.save.saveInfo.playerData.doubleDefense, 44, 202);
+    KaleidoScope_DrawDigit(play, gSaveContext.save.saveInfo.playerData.doubleDefense, 96, 202);
 
     // Magic
     //! @bug should be gSaveContext.save.saveInfo.playerData.isDoubleMagicAcquired
-    KaleidoScope_DrawDigit(play, gSaveContext.save.saveInfo.playerData.doubleDefense, 75, 202);
+    KaleidoScope_DrawDigit(play, gSaveContext.save.saveInfo.playerData.doubleDefense, 127, 202);
 
     // Lottery
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 139, i = 0; i < 3; i++) {
+    for (counterDigits[1] = 191, i = 0; i < 3; i++) {
         counterDigits[2] = gSaveContext.save.saveInfo.lotteryCodes[0][i];
 
         KaleidoScope_DrawDigit(play, counterDigits[2], counterDigits[1], 184);
@@ -628,7 +628,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
 
     // Oceanside Spider House Mask Order
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 217, i = 0; i < 6; i++) {
+    for (counterDigits[1] = 269, i = 0; i < 6; i++) {
         counterDigits[2] = gSaveContext.save.saveInfo.spiderHouseMaskOrder[i];
         KaleidoScope_DrawDigit(play, counterDigits[2], counterDigits[1], 186);
 
@@ -637,7 +637,7 @@ void KaleidoScope_DrawInventoryEditor(PlayState* play) {
 
     // Bombers code
     // Loop over columns (i), (counterDigits[1] stores rectLeft)
-    for (counterDigits[1] = 220, i = 0; i < 5; i++) {
+    for (counterDigits[1] = 272, i = 0; i < 5; i++) {
         counterDigits[2] = gSaveContext.save.saveInfo.bomberCode[i];
         KaleidoScope_DrawDigit(play, counterDigits[2], counterDigits[1], 210);
 
